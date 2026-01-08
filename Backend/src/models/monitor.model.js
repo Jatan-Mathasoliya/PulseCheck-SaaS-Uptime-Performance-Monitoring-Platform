@@ -46,4 +46,6 @@ const monitorSchema = new mongoose.Schema(
   }
 );
 
-export default mongoose.model("Monitor", monitorSchema);
+const monitor = mongoose.model("Monitor", monitorSchema);
+
+export default monitor;

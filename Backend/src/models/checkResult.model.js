@@ -35,4 +35,6 @@ const checkResultSchema = new mongoose.Schema(
   }
 );
 
-export default mongoose.model("CheckResult", checkResultSchema);
+const checkResult = mongoose.model("CheckResult", checkResultSchema);
+
+export default checkResult;
